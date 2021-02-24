@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AplicativoMidway"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Esse é o aplicativo Midway inteiro"
   s.homepage     = "https://github.com/rondinellimorais"
   s.license      = "MIT"
