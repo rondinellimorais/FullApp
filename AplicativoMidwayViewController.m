@@ -34,7 +34,7 @@
   //  PROD
   NSBundle * bundle = [NSBundle bundleForClass:AplicativoMidwayViewController.class];
 
-  NSURL *jsCodeLocation = [bundle URLForResource:@"AplicativoMidwayBundle.jsbundle/AplicativoMidway" withExtension:@"jsbundle"];
+  NSURL *jsCodeLocation = [bundle URLForResource:@"AplicativoMidwayBundle.bundle/AplicativoMidway" withExtension:@"jsbundle"];
   
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                       moduleName:@"midwaybanking"
